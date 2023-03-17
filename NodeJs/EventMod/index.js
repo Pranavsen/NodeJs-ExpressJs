@@ -24,5 +24,6 @@ event.on("checkPage", (sc,msg)=>{
 event.emit("checkPage", 200, "ok");
 
 
-// The concept is quite simple: emitter objects emit named events that cause previously registered listeners to be called. So an emitter object basically has two main features:
+// The concept is quite simple: emitter objects emit named events that cause previously registered listeners to be called.
+//  So an emitter object basically has two main features:
 // Emitting name events. registering and unregistering listener function.
